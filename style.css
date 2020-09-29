@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    padding-top:800px;
+}
+#img {
+    height:800px;
+    background: linear-gradient(#66ff66 0%, #cce6ff 100%);
+    vertical-align:middle;
+    display:table;
+    width:100%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+}
+#img_div {
+    vertical-align: middle;
+    margin:10px;
+    display: table-cell;
+}
+#name {
+    font-family: 'Faster One';
+    font-size: 22px;
+}
+p {
+    font-family: 'Aguafina Script';
+    font-size: 22px;
+}
+#careerAndResearch {
+    margin-top:50px;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top:10px;
+    left:25%;
+    z-index: 10;
+    cursor: pointer;
+}
+.nothing{
+    float: left;
+    padding:10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Courier Prime', monospace;
+}
