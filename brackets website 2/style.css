@@ -41,20 +41,21 @@ p {
 }
 
 .menu {
-    list-style: none;
+    width:100%;
     position: absolute;
-    top: 10px;
-    left: 25%;
+    top: 0px;
+    margin-top: 0px;
     z-index: 10;
     cursor: pointer;
 }
 
 .nothing {
-    float: left;
+    display:inline;
     padding: 10px;
     font-size: 50px;
     text-transform: uppercase;
     font-family: 'Courier Prime', monospace;
+    text-shadow: 2px 2px #928C89;
 }
 
 .workClass{
@@ -62,4 +63,11 @@ p {
 }
 h1{
     text-transform: uppercase;
+}
+#footer{
+    background-color: aqua;
+    font-size: 20px;
+    padding:10px;
+    font-family: 'Courier Prime';
+    text-decoration: underline !important;
 }
